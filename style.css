@@ -22,7 +22,8 @@
     font-family: monospace !important;
     text-shadow: none!important;
   }
-  :focus{
+  
+  *:focus{
     outline: none !important;
   }
   
