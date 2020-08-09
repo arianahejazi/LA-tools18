@@ -22,6 +22,9 @@
     font-family: monospace !important;
     text-shadow: none!important;
   }
+  :focus{
+    outline: none !important;
+  }
   
   #mainpage{
     background: var(--light-gray-10)!important;
@@ -29,6 +32,7 @@
 
   #progressbar{
     border: 1px solid var(--light-gray)!important;
+    border-radius: 50px!important;
   }
   .progress-label {
     color: var(--light-black)!important;
@@ -38,6 +42,9 @@
     background: var(--light-tifany)!important;
     border: none!important;
     box-sizing: border-box!important;
+    margin: 0!important;
+    padding: 0!important;
+    height: 60px;
   }
 
   .ui-field-contain label.ui-input-text{
@@ -52,14 +59,37 @@
   }
 
   .ui-shadow-inset {
-    box-shadow: none!important;
-}
+      box-shadow: none!important;
+  }
+
+  #page h3{
+    color: var(--light-black);
+  }
+
+  .feedbackText img{
+    display: none !important;
+  }
 
   .ui-btn-up-b{
     border-radius: 50px!important;
     border: 1px solid var(--light-gray)!important;
     color: var(--white)!important;
     background: var(--blue)!important;
+    box-shadow: none!important;
+  }
+
+  .ui-btn-up-b:hover{
+    border-radius: 50px!important;
+    border: 1px solid var(--light-gray)!important;
+    color: var(--white)!important;
+    background: var(--blue)!important;
+    box-shadow: none!important;
+    opacity: 0.5 !important;
+  }
+
+  .ui-btn{
+    border: 1px solid var(--light-gray)!important;
+    color: var(--light-black)!important;
     box-shadow: none!important;
   }
 
