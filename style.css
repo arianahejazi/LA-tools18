@@ -20,7 +20,7 @@
 
   body , *{
     font-family: monospace !important;
-    text-shadow: none;
+    text-shadow: none!important;
   }
   
   #mainpage{
@@ -28,20 +28,26 @@
   }
 
   #progressbar{
-    border: 1px solid var(--light-gray);
+    border: 1px solid var(--light-gray)!important;
+  }
+
+  .ui-field-contain label.ui-input-text{
+    margin: 0 10px!important;
+    background: transparent !important;
+    width: 10%!important;
   }
 
   .ui-field-contain input.ui-input-text{
-    border-radius: 50px;
-    border: 1px solid var(--light-gray);
+    border-radius: 50px!important;
+    border: 1px solid var(--light-gray)!important;
 
   }
 
   .ui-btn-hidden{
-    border-radius: 50px;
-    border: 1px solid var(--light-gray);
+    border-radius: 50px!important;
+    border: 1px solid var(--light-gray)!important;
     color: var(--white)!important;
-    background: var(--blue);
+    background: var(--blue)!important;
   }
 
   #feedbackText > span{
