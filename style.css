@@ -35,6 +35,8 @@ body , *{
 #progressbar{
   border: 1px solid var(--light-gray)!important;
   border-radius: 50px!important;
+  height: 25px!important;
+  margin-top: 20px!important;
 }
 .progress-label {
   color: var(--light-black)!important;
@@ -63,6 +65,7 @@ body , *{
   border-radius: 50px!important;
   border: 1px solid var(--light-gray)!important;
   padding-right: 15px!important;
+  padding-left: 15px!important;
 }
 
 
