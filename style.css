@@ -30,6 +30,15 @@
   #progressbar{
     border: 1px solid var(--light-gray)!important;
   }
+  .progress-label {
+    color: var(--light-black)!important;
+    text-shadow: none!important;
+  }
+  .ui-progressbar .ui-progressbar-value{
+    background: var(--light-tifany)!important;
+    border: none!important;
+    box-sizing: border-box!important;
+  }
 
   .ui-field-contain label.ui-input-text{
     margin: 0 10px!important;
@@ -40,19 +49,22 @@
   .ui-field-contain input.ui-input-text{
     border-radius: 50px!important;
     border: 1px solid var(--light-gray)!important;
-
   }
 
-  .ui-btn-hidden{
+  .ui-shadow-inset {
+    box-shadow: none!important;
+}
+
+  .ui-btn-up-b{
     border-radius: 50px!important;
     border: 1px solid var(--light-gray)!important;
     color: var(--white)!important;
     background: var(--blue)!important;
+    box-shadow: none!important;
   }
 
   #feedbackText > span{
     color: var(--red)!important;
-
   }
 
   
